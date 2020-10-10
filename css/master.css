@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: naslov;
+  src: url(../font/naslov.ttf);
+}
+@font-face {
+  font-family: podnas;
+  src: url(../font/podnas.ttf);
+} 
+body{
+background-image: url(../images/back.jpg);
+background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container{
+	width:90%;
+	height:700px;
+	margin:10px auto;
+	border: 2px solid #000000;
+	background-color: rgba(0,0,0,0.7);
+}
+h1{
+  font-family: naslov;
+  font-size: 5em;
+  color: snow;
+  text-shadow: 4px 4px 6px yellowgreen;
+}
+.podnaslov{
+	color:yellowgreen;
+	font-family: podnas;
+}
+.podnaslov h3:hover
+{
+	color: snow;
+	text-shadow: 4px 4px 6px yellowgreen;
+	border-bottom:2px solid yellowgreen;
+	border-radius:10px;
+	cursor:pointer;
+}
+.podnaslov :hover{
+	box-shadow: 2px 2px 4px yellowgreen;
+}
+.podnaslov :active{
+	border-top:1px solid yellowgreen;
+	border-left:1px solid yellowgreen;
+	box-shadow: 1px 1px 2px yellowgreen;
+}
+.podnaslov :visited{
+	border-top:1px solid yellowgreen;
+	border-left:1px solid yellowgreen;
+	box-shadow: 1px 1px 2px yellowgreen;
+}
+.jumbotron{
+  margin-bottom: 0;
+  background-color: rgba(105,105,105,0.8);
+}
+#brend{
+		cursor:pointer;
+}
+#brend h3{
+	font-family: podnas;
+	color: yellowgreen;
+    text-shadow: 4px 4px 6px white;
+	padding-left:3rem;
+}
+nav{
+	background-color: rgba(255,255,255,0.8);
+}
+nav a{
+	color:green;
+	font-family: podnas;
+}
+.podnaslov{
+	padding-top:50px;
+}
+.click{
+	color: snow;
+	text-align:center;
+	text-shadow: 4px 4px 6px yellowgreen;
+	border-bottom:2px solid yellowgreen;
+	border-radius:10px;
+	cursor:pointer;
+	border-top:1px solid yellowgreen;
+	border-left:1px solid yellowgreen;
+	box-shadow: 1px 1px 2px yellowgreen;
+}
+.normal{
+	color:yellowgreen;
+	font-family: podnas;
+	text-align:center;
+	text-shadow: none;
+	border-bottom:none;
+	border-radius:none;
+	cursor:none;
+	border-top:none;
+	border-left:none;
+	box-shadow: none;
+}
+.active{
+	display:block;
+	width:90%;
+	height:680px;
+	background-color:yellowgreen;
+	margin:10px auto;
+}
+#hra, #koz, #put{
+	display:none;
+	opacity:0.6;
+}
+
+#koz{
+	background-color:red;
+}
+#hra{
+	background-color:blue;
+}
+#put{
+	background-color:green;
+}
